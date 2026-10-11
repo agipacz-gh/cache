@@ -35,8 +35,6 @@ def get_admin(user_id: int):
     time.sleep(2)
     return {"id": user_id, "name": f"Admin {user_id}"}
 
-    return {}
-
 
 print(get_user(1))
 print(get_user(1))
