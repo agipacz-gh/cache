@@ -41,9 +41,8 @@ print(get_user(1))
 print(get_user(2))
 print(get_user(1))
 print(get_user(2))
-print(get_admin(user_id=1))
-print(get_admin(user_id=2))
-print(get_admin(user_id=1))
+print(get_admin(1))
+print(get_admin(2))
+print(get_admin(1))
 # print(get_user.__name__)
-
 # Notatka: dlaczego get_admin nie korzysta z wyniku get_user? Ponieważ nazwa funkcji również znajduje się w kluczu, z którego tworzymy wpis w cache.
